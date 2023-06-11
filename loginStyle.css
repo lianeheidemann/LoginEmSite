@@ -1,0 +1,56 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+form { color: black;}
+h2 {text-align: center;}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 12px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+section {
+  background: grey;
+  color: white;
+  border-radius: 1em;
+  padding: 1em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%) 
+}
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+button:hover {
+  opacity: 0.8;
+}
+.imgcontainer {
+  text-align: center;
+  margin: 10px 0 12px 0;
+}
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+.container {
+  max-width:300px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 1em;
+}
+#direcaoRight {
+  display: flex;
+  justify-content: right;
+}
+span.psw {
+  padding-top: 10px;
+}
